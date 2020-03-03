@@ -1,0 +1,25 @@
+body{
+	width:500px;
+	overflow: auto;
+	padding:5px;
+	font-size:9px;font-family: "微软雅黑","文泉驿微米黑",Arial,"黑体","宋体";
+}
+#appName,#author{
+	height:28px;
+	float:left;
+}
+#clear,#refresh,#modify,#switcher,.clear{
+	color:blue;
+	float:right;
+	margin:0px 10px;
+	cursor:pointer;
+	height:24px;
+}
+#container{
+	width:90%;
+	margin:auto;
+	overflow: auto;
+}
+td,th{
+	border:1px solid black;
+}

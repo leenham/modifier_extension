@@ -1,0 +1,80 @@
+﻿<html>
+<head>
+<link href="popup.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery.min.js"></script>
+    <style type="text/css">
+        li{
+            list-style:none;
+            display:list-item;
+            position:relative;
+        }
+        body{
+            font-family:'Open Sans' , sans-serif;
+            height:280px;
+            width:380px;
+        }
+        .label{
+            background:#82cff0;
+            padding:10px 10px !important;
+            font-size:14px;
+            position:absolute;
+            left:0;
+            top:0;
+        }
+        .inputbox{
+            position:absolute;
+            padding:0px 0px 0px 0px;
+            left:48px;
+            top:0px;
+        }
+        input{
+            height:38px;
+            width:215px;
+        }
+        .wrapper{
+            position:relative;
+            height:40px;
+        }
+        #submit_btn{
+            font-size:18px;
+            background-color:#82cff0;
+            color:#fff;
+            padding:10px 5px;
+            position:absolute;
+            left:200px;
+        }
+    </style>
+</head>
+<body>
+<ul>
+    <li class="wrapper">
+        <div class="label">昵称</div>
+        <div class="inputbox"><input type="text" id="nickname"></div>
+    </li>
+<li class="wrapper">
+    <div class="label">鱼翅</div>
+    <div class="inputbox"><input type="text" id="yw"></div>
+</li>
+<li class="wrapper">
+    <div class="label">鱼丸</div>
+    <div class="inputbox"><input type="text" id="yc"></div>
+</li>
+    <li class="wrapper">
+        <div class="label">等级</div>
+        <div class="inputbox"><input type="text" id="dj"></div>
+    </li>
+    <li class="wrapper">
+    <div class="label">贵族</div>
+    <div class="inputbox"><input type="text" id="gz"></div>
+</li>
+    <li class="wrapper">
+        <div class="label">粉丝牌等级</div>
+        <div class="inputbox" style="left:88px;"><input type="text" style="width:175px;" id="fsp"></div>
+    </li>
+    <li id="submit_btn" >修改斗鱼数据
+    </li>
+</ul>
+
+</body>
+<script type="text/javascript" src="popup.js"></script>
+</html>
